@@ -1,0 +1,19 @@
+/*CSS for HW5 Chris Rockwell*/
+body {font: 12px/1.4 verdana,geneva,lucida,arial,sans-serif;} /*Change 1 line height*/
+.ctr {margin: 20px auto; width: 700px; border: 1px solid #000;}
+/*html {background-image: -webkit-gradient(linear, left top, left bottom, from(#D0D0D0), to(#2E4960));}*/
+html {background-color: #ccc; color:#000;}  /*change 2 background color*/
+h1 {font-size: 22px; font-weight:  bold; font-variant: small-caps; letter-spacing: 2px;} /*change 3 h1 font size*/
+h2 {font-size: 18px; font-weight:  bold; letter-spacing: 1px;}  /*change 4 h2 font weight to bold*/
+h2 {background-image: url(line.gif);  background-repeat: repeat-x;}
+h3 {text-align: center; padding-bottom: 0; margin-bottom: 0;}
+em {font-style: italic; font-weight: bold;} /*change 5 em to italic*/
+li {margin-bottom: 1em;}
+p {text-indent: 25px;}
+.noIndent {text-indent: 0;}
+hr {margin-top: 0px; padding-top: 0px; height: 3px; color: #000; background-color:#000}
+li {list-style-image: url(bullet.gif);}
+a:link {color: blue; background-color: #ccc;}  /*change 6 link background color fff */
+a:visited {color: purple;}
+/*change 7 link background color fff */
+a:hover, a:focus, a:active {text-decoration: none; color: #f3230d; background-color: #fff;}

@@ -1,0 +1,94 @@
+ /*defaults*/
+
+/*
+ * 1024 bottom navs need to be stacked 3 wide
+ * li paddings or margins
+ * 
+ */
+@media screen {
+	
+	body {margin: 0; padding: 0;font: 75%/1.3 Arial, Helvetica, sans-serif; color: #FFF; background-color: #263F00; font-weight: normal; }
+	h1, h2, h3 {font-family: Georgia, "Times New Roman",Times, serif; margin:0; }
+	ul {padding:0; margin:0;}
+	p {line-height: 2em; }
+	
+	#wrapper{margin: 0 auto; width: 85%; padding: 60px 0 30px 0; }
+	
+	#header{ background: url('../images/img03.jpg') no-repeat right bottom; height: 140px; position: relative; }
+	
+	h1 {font-weight: normal; font-size: 4.5em; color: #D8FF9E; position: absolute; top: 15px; left: 35px; }
+	
+	#nav { line-height: 40px; background-color: #131F00; height: 40px; padding-left: 25px; list-style: none; }  /*p-0 0 0 25px*/
+	
+	#nav li { display: inline; list-style: none; padding: 0 40px; }
+	#nav li a { color: #FFF; text-decoration: none; }
+	#nav li a:hover {  text-decoration: underline; }
+	
+	#content { position: relative; width: 100%; }
+	
+	#rightside {  	background-color: #71AE15; min-height: 800px; margin-left: 220px; padding: 40px 10px 10px 50px; }
+	
+	h2 { font-size: 2em; font-weight: normal; color: #000; }
+	h2.title { font-size: 2.4em; font-variant: small-caps; }
+	
+	#rightside .post { margin: 30px 0 0 0; }
+	#rightside .entry { margin: 20px 0 0 0; }
+	#rightside .subtitle {font-style: italic; color: #D8FF9E; padding: 0 0 0 20px; text-align: left; list-style: square; }
+	#rightside .subtitle a { color: #D8FF9E; }
+	#rightside .button { font-size: 0.9em; color: #131F00; background-color: #D8FF9E; display: block; width: 100px; margin: 20px 0;
+						padding: 3px; text-align: center; text-transform: uppercase; text-decoration: none; }
+	
+	#leftside { width: 220px; position: absolute; top: 0; }
+	
+	h3 { font-size: 2em; font-weight: normal; color: #DEFF9E; margin: 20px 0 10px 10px; }					
+						
+	#leftside ul { margin-left: 10px; }
+	
+	#leftside li { list-style: none; line-height: 35px; border-bottom: 1px #D8FF9E dashed; }
+	
+	#leftside li a { color: #fff; text-decoration: none; }
+	#leftside li a:hover { text-decoration: underline; }
+
+}
+@media screen and (max-width: 1023px)
+{
+	#wrapper { width: 699px; }
+	#header { background-position: left; }
+	#nav { padding: 0 0 0 15px; }
+	#nav li { padding: 0 30px; }
+	#content #rightside { width: 638px; background-color: #71AE15; padding: 40px 10px 10px 50px; margin: 0; }
+	#leftside { position: static; width: 100%; margin-top: 20px; }
+	#leftside, #leftside .leftside-area { text-align: left; }
+	#leftside .leftside-area { width: 200px; float:left; margin: 0 0 20px 20px;}
+	
+}
+
+@media screen and (max-width: 480px)
+{
+	h1, h2, h3 {font-family: Arial, Helvetica, sans-serif; padding: 0; margin: 7px 0 5px 5px; } 
+	h1 { font-size: 2.7em; font-weight: normal; color: #D8FF9E; padding: 0; position: static; }
+	p { font-size: 1.3em; width: 400px; }
+	#wrapper { width: 100%; padding: 0; margin: 0 auto; }
+	#header { height: 50px; background-image: none; position: static; padding: 5px; border-bottom: 2px solid #000; }
+	#nav { 	background-color: #131F00;  height: inherit; list-style: none; padding: 0; }
+	#nav li, #leftside li { list-style: none; padding: 0; }
+	#nav li a, #nav li span, #leftside li a	{ color: #FFF; background-color: #108E0B; text-decoration: none; display: block; 
+		font-size: 1.5em; margin-bottom: 2px; padding-left: 10px;} 
+	#nav a:hover { text-decoration: none; }
+	#rightside { 	width: 100%; padding: 0; margin: 0; }
+	#leftside ul { margin: 0; }
+	#leftside, #leftside .leftside-area { float: none; width: 100%; margin: 0; }
+	#leftside li { border: none; }
+			
+}	
+
+@media print
+{
+	body { font: 75%/1.3 Arial, Helvetica, sans-serif; font-weight: normal; color: #000; }
+	body, h1, h2, p { margin: 0; padding: 0;}
+	h2 { margin-top: 10px; }
+	#leftside, #nav, a { display: none; }
+}
+
+
+  
