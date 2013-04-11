@@ -24,8 +24,9 @@ li {list-style: none; display: inline; height: 44px;}
 #content h2 span {display: block; color: #000; font: italic 50%/2.5em Arial, Helvetica, sans-serif; }
 #content p { line-height: 2em; }
 #content .date { font-style: italic; }
+
 #sidenav h3 { font-size: 1.2em; color: #554433; background-image: url('../images/sidenavh1.gif'); height: 22px;
-	line-height: 22px; padding-left: 12px; }	
+	line-height: 22px; padding-left: 12px; margin: 0; }	
 #sidenav h3 a { color: #554433 }	
 #sidenav li { border-top: 1px solid #AA9988; }
 #sidenav li a {height: 40px; color: #555544; background-color: #CCC3AF; display: block; padding-left: 15px;
