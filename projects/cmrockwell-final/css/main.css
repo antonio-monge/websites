@@ -6,52 +6,66 @@ a{text-decoration:none;}
 
 /* wrapper */
 #wrapper{position: relative; margin: 0 auto; width: 900px; background-color: #FFF; }
+#over {position: absolute; top: 0; left: 0; opacity: 0.5; width: 900px; z-index: 10; visibility: hidden; }
 
 /* header background: #fff url(image.gif) no-repeat top left*/
 #header{ height: 126px; text-transform:uppercase; position: relative; }
 #logo_div { height: 126px; width: 289px; background: #fff url('../images/upper-white.jpg') no-repeat top left; position:absolute; left:0; top:0; }
 #header-right {position:absolute; top:0; right:0; width: 611px; }
-#logo_div h1 { color:#00C6FF; margin: 40px 40px 8px 40px; font-size: 2em;}
-#logo_div h1 span { color:#00C6FF; }
-#logo_div p { margin-left: 40px; }
+#logo_div h1 { color: #214990; margin: 50px 40px 6px 51px; font-size: 2em;}
+#logo_div h1 span { color: #49701B; }
+#logo_div p { margin-left: 51px;  letter-spacing: -1px;}
 #social-links { height: 36px; background-color: #6C9DEf; position: relative; background-repeat: no-repeat; }
 .icon {background-image: url('../images/iconpack.png'); height: 34px; width: 34px; position:absolute; border: none; }
 #twitter {background-position: -341px -172px; left: 92px}
 #facebook {background-position: -501px -13px; left: 218px;}
-#youtube {background-position: -182px -115px; left: 352px;}
-#blogger {background-position: -11px -62px; left: 486px; }
+#youtube {background-position: -182px -115px; left: 350px;}
+#blogger {background-position: -11px -62px; left: 478px; }
 
-#search {height: 47px; background-color: #1F478C; line-height: 47px; padding-left: 26px; }
+#search {height: 50px; background-color: #1F478C; line-height: 50px; padding-left: 30px; letter-spacing: -1px; }
 .underline {text-decoration:underline; }
 .white {color: white; }
-#search label {color: #C0E741; margin-right: 24px; font-weight: bold; }
-#search input.text {width: 292px; margin-top: 12px;}
+#search label {color: #C0E741; margin-right: 32px; font-weight: bold; vertical-align: top;}
+#search input.text {width: 292px; margin-top: 12px; padding-top: 0;}
 #search input#searchBtn { background: #fff url('../images/search.jpg') no-repeat top left; width: 69px; height: 24px; 
-							border: solid #1F478C 1px; background-position: 0px 0px; padding-top: 2px; margin-left: 10px}
+							border: solid #1F478C 1px; background-position: 0px 0px; padding-top: 2px; margin-left: 14px}
 
-#nav{  background: #fff url('../images/nav2.jpg') repeat-x top left; text-align: center; border: none; overflow: auto;}
+#nav{  background: #fff url('../images/nav2.jpg') repeat-x top left; text-align: center; border: none; overflow: hidden;
+		 width: 608px; margin-left: 2px; }
 #nav li{float:left; list-style:none;}
-#nav li a, #nav li span {font-size:1.1em; line-height: 43px; color: #fff; width: 110px; display:block; font-weight: bold;} 
+#nav li a, #nav li span {font-size:1.0em; line-height: 41px; margin-left: 50px; color: #000; display:block; font-weight: bold;} 
 #nav li a:hover{text-decoration:underline; }
 
 
-#content { height: 706px; }
+#content { height: 713px; }
 #middle { height: 267px; width: 289px; position: relative; }
 #middle #car { height: 267px; width: 289px;  background: #fff url('../images/car.jpg') no-repeat top left; border: solid white 1px;}
-#middle #sublinks {  height: 267px; width: 240px; position:absolute; top:0; left: 289px; background-color: #6C9DEf; }
-#sublinks ul { position: absolute; top: 12px; width: 100%; }
-#sublinks li { 	border: solid white 1px; background-image: url('../images/dot1.jpg'); 
-				background-repeat:no-repeat; background-position: 8px 5px; padding-left: 30px; 
-				list-style-position: inside; list-style: none; height: 25px; line-height: 25px; }
-#middle #welcome {  height: 267px; width: 370px; position:absolute; top:0; left: 529px; background-color: #1F478C; color: #fff; }
+#middle #sublinks {  height: 267px; width: 242px; position:absolute; top:0; left: 289px; background-color: #6C9DEf;
+						border: solid white 2px; }
+#sublinks ul { position: absolute; top: 12px; width: 100%; border-bottom: solid white 2px;}
+#sublinks li { 	border-top: solid white 2px;
+				background-image: url('../images/dot1.jpg'); 
+				background-repeat:no-repeat; background-position: 12px 7px; padding-left: 41px; 
+				list-style-position: inside; list-style: none; height: 25px; line-height: 25px; font-size: 1.2em; }
+#sublinks a { color: #fff; font-weight: bold; }				
+#middle #welcome {  height: 268px; width: 364px; position:absolute; top:0; left: 535px; background-color: #1F478C; color: #fff; }
+#welcome h2 { font-weight: bold; margin: 35px 0 0 20px;  text-transform:uppercase; text-transform: uppercase; font-size: 1.8em; }
+#welcome h2 span { color: #C0E741;  }
+#welcome h3 { text-transform: uppercase; margin: 7px 0 0 19px; }
+#welcome p { margin: 10px 29px;  }
 
 #lower {position: relative; }
-#left_barrier { position: absolute; left: 0; top:0; width: 289px; border: solid white 1px; background-color: #C0E741; height: 18px; }
-#right_barrier { position: absolute; left: 289px; top:0; width: 609px; border: solid white 1px; background-color: #3E83EB; height: 18px; }
-#car_desc { position: absolute; left:0; top: 18px; width: 289px; height: 419px; background-color: #303439; }
-#car_content { position: absolute; left: 289px; top: 18px; width: 609px; height: 419px; background-color: #3561AE; }
-
-#footer { background-color: #1F478C; height: 24px; line-height: 24px; text-align: center; color: white;  }
+#left_barrier { position: absolute; margin-top: 4px; width: 288px; border-bottom: solid white 2px; background-color: #C0E741; height: 20px; }
+#right_barrier { position: absolute; left: 290px; margin-top: 3px; width: 608px; border: solid white 1px; background-color: #3E83EB; height: 21px; }
+#car_desc { position: absolute; left:0; top: 27px; width: 289px; height: 420px; background-color: #303439; border-bottom: solid white 2px; }
+#car_desc h3 { color: #fff; margin: 14px 10px 10px 12px; font-size: 1.5em;}
+#car_desc h3 span { color: #C0E741;}
+#car_desc h4 {color: #C0E741; margin: 14px 9px -10px 10px; font-size: 1.1em; border-bottom: solid white 1px; padding-bottom: 8px; }
+#car_desc p { color: #fff; font-size: 1.0em; margin: 17px 12px -5px 12px;}
+#car_content { position: absolute; left: 289px; top: 25px; width: 608px; height: 420px; background-color: #3561AE; 
+				border: solid white 2px; }
+#footer { background-color: #1F478C; height: 24px; line-height: 24px; text-align: center; color: white; border: solid white 2px; 
+			border-left: none;}
 /* colors
  * 	
 c-#000 black
