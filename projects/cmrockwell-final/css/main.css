@@ -21,8 +21,8 @@ a{text-decoration:none;}
 #facebook {background-position: -501px -13px; left: 218px;}
 #youtube {background-position: -182px -115px; left: 350px;}
 #blogger {background-position: -11px -62px; left: 478px; }
-
-#search {height: 50px; background-color: #1F478C; line-height: 50px; padding-left: 30px; letter-spacing: -1px; }
+#search_bar {width: 100%; background-color: #1F478C; }
+#search {height: 50px; line-height: 50px; padding-left: 30px; letter-spacing: -1px; width: 575px; }
 .underline {text-decoration:underline; }
 .white {color: white; }
 #search label {color: #C0E741; margin-right: 32px; font-weight: bold; vertical-align: top;}
@@ -62,15 +62,25 @@ a{text-decoration:none;}
 #car_desc h3 span { color: #C0E741;}
 #car_desc h4 {color: #C0E741; margin: 14px 9px -10px 10px; font-size: 1.1em; border-bottom: solid white 1px; padding-bottom: 8px; }
 #car_desc p { color: #fff; font-size: 1.0em; margin: 17px 12px -5px 12px;}
-#car_content { position: absolute; left: 289px; top: 25px; width: 608px; height: 420px; background-color: #3561AE; 
-				border: solid white 2px; }
+#car_content { position: absolute; left: 289px; top: 25px; width: 608px; height: 392px; background-color: #3561AE; 
+				border: solid white 2px; padding-top: 28px; }
 #footer { background-color: #1F478C; height: 24px; line-height: 24px; text-align: center; color: white; border: solid white 2px; 
 			border-left: none;}
-			
-.car { position: absolute; }	
-.car img { position: relative; top: 10px; left: 10px; width: 187px; height: 107px; }
-.car 
-		
+
+.more_info {position: relative; bottom: 33px; left: 775px;  }
+.more_info p {color: #fff; font-weight: bold; display: inline; position: absolute; top: 1px; left: 30px;}	
+.more_info img {position: absolute; top:2px; left:0px; }	
+
+.more_info2 {position: relative; bottom: 29px; left: 488px;  }
+.more_info2 p {color: #fff; font-weight: bold; display: inline; position: absolute; top: 1px; left: 30px;}	
+.more_info2 img {position: absolute; top:2px; left:0px; }	
+
+.car { position: relative; height: 126px; margin-right: 10px;}	
+img.car-image { margin-left: 10px;  }
+.car-info { position: absolute; top: 0px; left: 207px; }
+.car-info h4 {color: #fff; margin: 0; padding: 0; text-transform:uppercase; }
+.car-info h4 span {color: #C0E741; }
+.car-info p {color: #fff; margin-top: 10px; }
 /* colors
  * 	
 c-#000 black

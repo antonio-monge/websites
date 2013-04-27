@@ -8,11 +8,11 @@
 <body>
 	
 	<div id="wrapper">
-		<img src="images/fp-chrome-pc.jpg" id="over">
+		<img src="images/fp-chrome-pc.jpg" id="over" alt="remove" />
         <div id="header">
         	<div id="logo_div"> 
         		<h1>Auto <span>Center</span> </h1>
-        		<p>Best Company slogan ever</p>
+        		<p>Best Company slogan here</p>
         	</div>
         	<div id="header-right">
 	            <div id="social-links">
@@ -21,11 +21,15 @@
 	            	<a href="#" class="icon" id="youtube"> </a>
 	            	<a href="#" class="icon" id="blogger"> </a>
 	            </div>
-	            <form id="search" method="post">
-	            	<label for="search"><span class="underline">S</span>EARCH <span class="white"> CARS COLLECTION: </span></label>
-	            	<input type="text" class="text"/>
-	            	<input type="submit" value="" id="searchBtn"/>
+	            <div id="search_bar"> 
+	            <form id="search" method="post" action="">
+	            	<div> 
+		            	<label for="search_text"><span class="underline">S</span>EARCH <span class="white"> CARS COLLECTION: </span></label>
+		            	<input type="text" class="text" name="search_text" id="search_text"/>
+		            	<input type="submit" value="" id="searchBtn"/>
+		            </div>	
 	            </form>
+	            </div>
 		        <div id="nav">
 		        	<ul>
 		        		<li>  <span> Home </span> </li>
@@ -61,8 +65,12 @@
 					<h2> Welcome <span> to auto center</span> </h2>
 					<h3> small text about this paragraph</h3>
 					<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore. </p>
-					<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. </p>				
+					<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. </p>												
 				</div>
+				<div class="more_info">
+					<img src="images/arrow.jpg" alt=""/>
+					<p>MORE INFO</p>
+				</div>				
 			</div>
 			<div id="lower">
 				<div id="left_barrier">
@@ -84,20 +92,39 @@
 				</div>
 				<div id="car_content">
 					<div class="car">
-						<div id="car1" class="car-image"> </div>
-						<h4>Paragraph <span> name here</span> </h4>	
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.</p>						
+						<img id="car1" class="car-image" src="images/car_c1.jpg" alt="car image"/> 
+						<div class="car-info">
+							<h4>Paragraph <span> name here</span> </h4>	
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.</p>						
+						</div>	
+						<div class="more_info2">
+							<img src="images/arrow.jpg" alt=""/>
+							<p>MORE INFO</p>
+						</div>												
 					</div>
 					<div class="car">
-						<div id="car2" class="car-image"> </div>
-						<h4>Paragraph <span> name here</span> </h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.</p>							
+						<img id="car2" class="car-image" src="images/car_c2.jpg" alt="car image"/>
+						<div class="car-info">	
+							<h4>Paragraph <span> name here</span> </h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.</p>							
+						</div>
+						<div class="more_info2">
+							<img src="images/arrow.jpg" alt=""/>
+							<p>MORE INFO</p>
+						</div>	
 					</div>
 					<div class="car">
-						<div id="car3" class="car-image"> </div>
-						<h4>Paragraph <span> name here</span> </h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.</p>							
+						<img id="car3" class="car-image" src="images/car_c3.jpg" alt="car image"/>
+						<div class="car-info">	
+							<h4>Paragraph <span> name here</span> </h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.</p>							
+						</div>
+						<div class="more_info2">
+							<img src="images/arrow.jpg" alt=""/>
+							<p>MORE INFO</p>
+						</div>	
 					</div>
+					
 				</div>
 				
 			</div>					        
