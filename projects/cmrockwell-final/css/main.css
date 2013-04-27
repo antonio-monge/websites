@@ -68,11 +68,11 @@ a{text-decoration:none;}
 			border-left: none;}
 
 .more_info {position: relative; bottom: 33px; left: 775px;  }
-.more_info p {color: #fff; font-weight: bold; display: inline; position: absolute; top: 1px; left: 30px;}	
+.more_info span {color: #fff; font-weight: bold; display: inline; position: absolute; top: 1px; left: 30px;}	
 .more_info img {position: absolute; top:2px; left:0px; }	
 
 .more_info2 {position: relative; bottom: 29px; left: 488px;  }
-.more_info2 p {color: #fff; font-weight: bold; display: inline; position: absolute; top: 1px; left: 30px;}	
+.more_info2 span {color: #fff; font-weight: bold; display: inline; position: absolute; top: 1px; left: 30px;}	
 .more_info2 img {position: absolute; top:2px; left:0px; }	
 
 .car { position: relative; height: 126px; margin-right: 10px;}	
