@@ -59,10 +59,10 @@
 	#rightside .button { font-size: 0.9em; color: #131F00; background-color: #D8FF9E; display: block; width: 100px; margin: 20px 0;
 						padding: 3px; text-align: center; text-transform: uppercase; text-decoration: none; }
 
-	.code_example {width: 400px; height: 460px; float:left; margin: 0 0 0 0; padding: 10px; }
+	.code_example {float:left; margin: 0 50px 0 0; padding: 10px; }
 		
 	.code_example img {height: 230px; box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.40); }
-	.code_example p { width: 200px; }
+	.code_example p { width: 300px; }
 
 	.clear {clear: both; }
 	#leftside { width: 220px; position: absolute; top: 0; }
