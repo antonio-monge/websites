@@ -9,7 +9,7 @@
 	html { height: 100%;  }
 	body { margin: 0; padding: 0;font: 85%/1.3 Arial, Helvetica, sans-serif; color: #FFF; 
 			height: 100%; background-repeat: no-repeat; background-attachment: fixed;
-			background-color: rgb(189,179,45);
+			background-color: rgb(18,66,7);
 			background-image: linear-gradient(bottom, rgb(18,66,7) 0%, rgb(189,179,45) 100%);
 			background-image: -o-linear-gradient(bottom, rgb(18,66,7) 0%, rgb(189,179,45) 100%);
 			background-image: -moz-linear-gradient(bottom, rgb(18,66,7) 0%, rgb(189,179,45) 100%);
@@ -29,7 +29,7 @@
 	ul {padding:0; margin:0;}
 	p {line-height: 1.6em; }
 	
-	#wrapper{margin: 0 auto; width: 85%; padding: 10px; }
+	#wrapper{margin: 0 auto; width: 95%; padding: 10px; overflow: auto; }
 	
 	#header{ background: url('../images/img03.jpg') no-repeat right bottom; height: 100px; position: relative; }
 	
@@ -45,7 +45,7 @@
 	
 	#content { position: relative; width: 100%; }
 	
-	#rightside { background-color: #71AE15; min-height: 1090px; margin-left: 220px; padding: 1px 40px 40px 40px; 
+	#rightside { background-color: #71AE15; min-height: 1090px; margin-left: 220px; padding: 1px 0px 40px 40px; 
 				color: #000; }
 	#rightside li {margin-left: 50px; padding-left: 0px; }
 	
@@ -58,16 +58,20 @@
 	#rightside .subtitle a { color: #D8FF9E; }
 	#rightside .button { font-size: 0.9em; color: #131F00; background-color: #D8FF9E; display: block; width: 100px; margin: 20px 0;
 						padding: 3px; text-align: center; text-transform: uppercase; text-decoration: none; }
+	#rightside p { }
 
-	.code_example {float:left; margin: 0 50px 0 0; padding: 10px; }
+	#code_examples {overflow: auto; margin: 0 auto; padding: 0 15px; }
+	.code_example {float:left; margin: 0 40px 0 0; padding: 0px; display: inline;}
 		
-	.code_example img {height: 230px; box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.40); }
-	.code_example p { width: 300px; }
+	.code_example img {height: 230px; box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.40); margin: 0 auto; }
+	.code_example p { width: 250px;  }
 
-	.clear {clear: both; }
+	.clear {clear: none; }
+	.clear3 {clear: both; }
+	
 	#leftside { width: 220px; position: absolute; top: 0; }
 	
-	h3 { font-size: 1.5em; font-weight: normal; color: #000; margin: 20px 0 10px 10px; }					
+	h3 { font-size: 1.5em; font-weight: normal; color: #000; margin: 20px 0 8px; }					
 						
 	#leftside ul { margin-left: 10px; }
 	
@@ -77,7 +81,14 @@
 	#leftside li a:hover { text-decoration: underline; }
 
 }
-@media screen and (max-width: 1023px)
+@media screen and (max-width: 1192px)
+{
+	.clear {clear: both; }
+	.clear3 {clear: none; }	
+	.code_example { margin-right: 20px;}
+}	
+
+@media screen and (max-width: 950px)
 {
 	#wrapper { width: 699px; }
 	#header { background-position: left; }
@@ -87,27 +98,9 @@
 	#leftside { position: static; width: 100%; margin-top: 20px; }
 	#leftside, #leftside .leftside-area { text-align: left; }
 	#leftside .leftside-area { width: 200px; float:left; margin: 0 0 20px 20px;}
-	
+	.code_example {float: none; margin: 0 auto; padding: 15px; display: block;}
 }
 
-@media screen and (max-width: 480px)
-{
-	h1, h2, h3 {font-family: Arial, Helvetica, sans-serif; padding: 0; margin: 7px 0 5px 5px; } 
-	h1 { font-size: 2.7em; font-weight: normal; color: #D8FF9E; padding: 0; position: static; }
-	p { font-size: 1.3em; width: 400px; }
-	#wrapper { width: 100%; padding: 0; margin: 0 auto; }
-	#header { height: 50px; background-image: none; position: static; padding: 5px; border-bottom: 2px solid #000; }
-	#nav { 	background-color: #131F00;  height: inherit; list-style: none; padding: 0; }
-	#nav li, #leftside li { list-style: none; padding: 0; }
-	#nav li a, #nav li span, #leftside li a	{ color: #FFF; background-color: #108E0B; text-decoration: none; display: block; 
-		font-size: 1.5em; margin-bottom: 2px; padding-left: 10px;} 
-	#nav a:hover { text-decoration: none; }
-	#rightside { 	width: 100%; padding: 0; margin: 0; }
-	#leftside ul { margin: 0; }
-	#leftside, #leftside .leftside-area { float: none; width: 100%; margin: 0; }
-	#leftside li { border: none; }
-			
-}	
 
 @media print
 {
